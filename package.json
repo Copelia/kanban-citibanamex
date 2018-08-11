@@ -19,6 +19,11 @@
     "mocha": "^5.1.1",
     "nyc": "^11.7.1",
     "opener": "^1.4.3",
+    "request": "^2.88.0",
+    "requirejs-babel": "0.0.9",
     "server": "^1.0.18"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
