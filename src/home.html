@@ -9,44 +9,68 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
 </head>
 
 <body>
     <header>
         <h1>Kanban UX-ers CitiBanamex</h1>
     </header>
+
+
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="col-12 border border-danger d-flex flex-row">
                 BACKLOG
-                <div class="card" style="width: 10rem;" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="card-body"  draggable="true" ondragstart="drag(event)" id="text1">
-                        <p class="card-text">Realizar user persona</p>
+                <i class="fas fa-plus"></i>
+                <div class="p2 card" style="width: 10rem;" id="div-a" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="card-body">
+                        <p class="card-text" id="drag-a" draggable="true" ondragstart="drag(event)" width="336" height="69">Realizar user persona</p>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                TO DO
+                </div>    
+                <div class="p2 card" style="width: 10rem;" id="div-b" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="card-body">
+                            <p class="card-text" id="drag-b" draggable="true" ondragstart="drag(event)" width="336" height="69">Realizar sketch baja fidelidad</p>
+                        </div>
+                    </div>
+            </div>                
+            <div class="col-12 border border-warning">
+                            TO DO
                 <div class="card" style="width: 10rem;" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body">
-                        <p id="to-do" draggable="true" class="card-text"></p>
+                        <div class="card-text" id="drag2" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                            <input type="text" placeholder="Nueva tarea" />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                DOING
-            </div>
-            <div class="col-sm-2">
-                FEEDBACK
-            </div>
-            <div class="col-sm-2">
-                DONE
-            </div>
+                        <div class="col-12 border border-success">
+                            DOING
+                            <div class="card" style="width: 10rem;" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                <div class="card-body">
+                                    <p class="card-text" id="drag3" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-12 border border-primary">
+                            DONE
+                            <div class="card" style="width: 10rem;" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                <div class="card-body">
+                                    <p class="card-text" id="drag4" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
+                                </div>
+                            </div>
+                        </div>
         </div>
     </div>
-    <script src="main.js"></script>
-    <script src="data.js"></script>
+
+
+
+                    <script src="main.js"></script>
+                    <script src="data.js"></script>
+
 </body>
 
 </html>
