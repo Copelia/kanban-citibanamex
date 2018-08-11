@@ -49,6 +49,8 @@ Siento que hacen mi trabajo menos por mi edad.
 ## Journey Map
 
 ## Wireframe
+<img src = "src/assets/image/wireframe1.jpeg">
+<img src = "src/assets/image/wireframe2.jpeg">
 
 ## Prototipo
 En la siguiente liga se podrá visualizar el prototipo: https://marvelapp.com/33i4j7i
@@ -61,5 +63,21 @@ Al realizar el user testing con el primer prototipo realizado se recibió el sig
 * A nuestro usuario le gustaría poder agregar a amigos
 * La posibilidad de seguir tableros diferentes
 * La posibilidad de compartir su tablero
+
+## Logotipo y nombre de la APP
+### KANBANK
+
+ <img src = "src/assets/image/kanbanklogo.png">
+ <img src = "src/assets/image/tipografia kanbank.png">
+
+### Significado
+
+Se decidió que el nombre de la aplicación fuera uno descriptivo y sencillo de memorizar, KANBANK hace referencia al tablero Kanban, así como a la empresa, un corporativo bancario, sin embargo, no es solamente eso, sino que también hace referencia al banco de tableros kanban que nuestra aplicación contiene.
+
+### Paleta de colores 
+
+#3319a0
+#1e7b9a
+
 
 
