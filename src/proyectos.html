@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mis proyectos Kanban</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--Materialize link min-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="https://fonts.google.com/specimen/Roboto">
+</head>
+
+<body>
+    <!--Slide de perfil de usuario desplegable-->
+    <div>
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <div id="img-logo">
+                            <img src="images/office.jpg">
+                        </div>
+                    </div>
+                    <a href="#user">
+                        <img class="circle" src="persona.png">
+                    </a>
+                    <a href="#name">
+                        <span class="black-text name">Alejandra</span>
+                    </a>
+                    <a href="#email">
+                        <span class="black-text email">jdandturk@gmail.com</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="#!">
+                    <i class="material-icons">cloud</i>Mis Proyectos</a>
+            </li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li>
+                <a class="subheader">Acerca de mí</a>
+            </li>
+            <div class="card aboutme-card">
+                <div class="card-content  red-accent-4-text aboutme-card">
+                    <span class="card-title">UX Designer </span>
+
+                    <p id="perfil"> Escribe sobre tí</p>
+                    <a id="btn-edit" href="#">
+                        <i class="material-icons">edit</i>
+                    </a>
+
+                </div>
+                <div class="card-action">
+
+
+                </div>
+                <li>
+                    <a id="logout" class="waves-effect waves-light btn-small">
+                        <i class="material-icons right">exit_to_app </i>Log Out</a>
+                </li>
+                <div class="divider"></div>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+        <div class="container">
+            <div style="background-color:blue;color:white;padding:20px;">
+                <h2>Proyecto 1: Interface de app </h2>
+                <p>Inspired in the colors of London is the capital city of England...</p>
+                <h3>Add Collaborators</h3>
+            </div>
+            <div style="background-color:black;color:white;padding:20px;">
+                <h2>Proyecto 2: Interface de app </h2>
+                <p>Inspired in the colors of London is the capital city of England...</p>
+                <h3>Add Collaborators</h3>
+            </div>
+        </div>
+
+
+        </div>
+        <!--Firebase-->
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+        <!--JQuery para menú desplegable-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"> </script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <!--Scripts JS:-->
+        <script src="main.js"></script>
+        <script src="data.js"></script>
+</body>
+
+</html>

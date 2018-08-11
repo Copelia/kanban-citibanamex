@@ -5,11 +5,15 @@
     border: 1px solid #aaaaaa;
 }*/
 
+#img-logo {
+  height: ;
+  width: ;
+}
 header {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 8%;
-    margin-bottom: 5%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 img {
@@ -18,20 +22,14 @@ img {
 }
 
 .login-form {
-    padding: 10px 68px 35px 35px;
-  }
-  
+  padding: 10px 68px 35px 35px;
+}
 
 .btn-box {
-    text-align: center !important;
-    padding-bottom: 5px;
-    padding-top: 5px;
-  }
-
-  footer {
-      margin-top: 10%;
-      color: #1e7b9a;
-      font-family: 'Roboto', sans-serif;
+  text-align: center !important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 
   }
 
