@@ -44,7 +44,7 @@ Siento que la brecha generacional me impide integrarme con los equipos con una e
 Siento que hacen mi trabajo menos por mi edad.
 
 ### Emphaty map
-<img src = "assets/image/emphatymap.jpg">
+<img src = "src/assets/image/emphatymap.jpg">
 
 ## Journey Map
 
