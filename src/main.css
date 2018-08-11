@@ -13,7 +13,7 @@ header {
 }
 
 img {
-    width: 30%;
+    width: 20%;
     margin-bottom: 5%;
 }
 
@@ -26,4 +26,23 @@ img {
     text-align: center !important;
     padding-bottom: 5px;
     padding-top: 5px;
+  }
+
+  footer {
+      margin-top: 10%;
+      color: #1e7b9a;
+      font-family: 'Roboto', sans-serif;
+
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #242222cb !important;
+  }
+
+  .task {
+      font-family: 'Roboto', sans-serif;
+      color: #3319a0;
+      font-weight: 600;
+      margin-bottom: 3%;
   }
