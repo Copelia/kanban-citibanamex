@@ -1,5 +1,5 @@
 initializeFirebase();
-
+//DOM EVENTS
 document.getElementById('twitter-log').addEventListener('click', event => {
   event.preventDefault();
   twitterLogin();

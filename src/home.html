@@ -4,13 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kanban</title>
+    <title>Perfil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <!--Materialize link min-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="https://fonts.google.com/specimen/Roboto">
 
 </head>
 
@@ -18,7 +24,6 @@
     <header>
         <h1>Kanban UX-ers CitiBanamex</h1>
     </header>
-
 
     <div class="container-fluid">
         <div class="row">
@@ -29,15 +34,15 @@
                     <div class="card-body">
                         <p class="card-text" id="drag-a" draggable="true" ondragstart="drag(event)" width="336" height="69">Realizar user persona</p>
                     </div>
-                </div>    
+                </div>
                 <div class="p2 card" style="width: 10rem;" id="div-b" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        <div class="card-body">
-                            <p class="card-text" id="drag-b" draggable="true" ondragstart="drag(event)" width="336" height="69">Realizar sketch baja fidelidad</p>
-                        </div>
+                    <div class="card-body">
+                        <p class="card-text" id="drag-b" draggable="true" ondragstart="drag(event)" width="336" height="69">Realizar sketch baja fidelidad</p>
                     </div>
-            </div>                
+                </div>
+            </div>
             <div class="col-12 border border-warning">
-                            TO DO
+                TO DO
                 <div class="card" style="width: 10rem;" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
                     <div class="card-body">
                         <div class="card-text" id="drag2" draggable="true" ondragstart="drag(event)" width="336" height="69">
@@ -46,30 +51,39 @@
                     </div>
                 </div>
             </div>
-                        <div class="col-12 border border-success">
-                            DOING
-                            <div class="card" style="width: 10rem;" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
-                                <div class="card-body">
-                                    <p class="card-text" id="drag3" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-12 border border-success">
+                DOING
+                <div class="card" style="width: 10rem;" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="card-body">
+                        <p class="card-text" id="drag3" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="col-12 border border-primary">
-                            DONE
-                            <div class="card" style="width: 10rem;" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
-                                <div class="card-body">
-                                    <p class="card-text" id="drag4" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-12 border border-primary">
+                DONE
+                <div class="card" style="width: 10rem;" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="card-body">
+                        <p class="card-text" id="drag4" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <button>
+            <a href="proyectos.html">Mis proyectos</a>
+        </button>
     </div>
 
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <!--JQuery para estilos de Materialize-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"> </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--Scripts JS:-->
+    <script src="main.js"></script>
+    <script src="data.js"></script>
 
-
-                    <script src="main.js"></script>
-                    <script src="data.js"></script>
 
 </body>
 
