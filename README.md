@@ -10,6 +10,7 @@ Por eso mismo, decidimos crear una aplicación que emula la interacción con un 
 * Fácil e intuitiva de utilizar
 * Personalizable
 * Ingreso a ella con métodos diferentes además de la cuenta de CitiBanamex
+* Interacción entre los usuarios
 * Habilidad de compartir su tablero y seguir tableros disntintos.
 
 
@@ -73,11 +74,12 @@ Al realizar el user testing con el primer prototipo realizado se recibió el sig
 ### Significado
 
 Se decidió que el nombre de la aplicación fuera uno descriptivo y sencillo de memorizar, KANBANK hace referencia al tablero Kanban, así como a la empresa, un corporativo bancario, sin embargo, no es solamente eso, sino que también hace referencia al banco de tableros kanban que nuestra aplicación contiene.
+Las dos personas abranzándose, representaría la comunicación asertiva, la misma que se pretende fomentar entre los usuarios y trabajadores del corporativo.
 
 ### Paleta de colores 
 
 #3319a0
 #1e7b9a
 
-
+En cuanto a la paleta de colores selccionada para la aplicación se implementó una gama de azules, ya que esta, según la psicología del color, inspira confianza, la misma que queremos ejercer en nuestros usuarios. También representa frescura, e inovación.
 
