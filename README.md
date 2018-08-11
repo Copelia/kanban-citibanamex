@@ -16,32 +16,32 @@ Por eso mismo, decidimos crear una aplicación que emula la interacción con un 
 ## User persona
 
 Piensa:
-Ambiente laboral anticuado
-Hay una falta de comunicación entre los developers
-Formar parte del cambio de mentalidad de la empresa
-No estaré allí por mucho tiempo
+* Ambiente laboral anticuado
+* Hay una falta de comunicación entre los developers
+* Formar parte del cambio de mentalidad de la empresa
+* No estaré allí por mucho tiempo
 
 Dice:
-¿Podríamos implementar esta forma de trabajo?
-Deberíamos organizarnos mejor
-Somos un equipo grande, trabajemos juntos.
-¿Te parece si lo vemos después de la hora de la comida?
+* ¿Podríamos implementar esta forma de trabajo?
+* Deberíamos organizarnos mejor
+* Somos un equipo grande, trabajemos juntos.
+* ¿Te parece si lo vemos después de la hora de la comida?
 
 
 Hace:
-Aprende todo lo posible
-Checa su celular todo el tiempo
-Adaptarme facilmente a los diferentes equipos
-Integrar a los miembros del equipo
-Tener una actitud de liderazgo y empatica.
-Mantener una mentalidad abierta para el crecimiento propio y del equipo
+* Aprende todo lo posible
+* Checa su celular todo el tiempo
+* Adaptarme facilmente a los diferentes equipos
+* Integrar a los miembros del equipo
+* Tener una actitud de liderazgo y empatica.
+* Mantener una mentalidad abierta para el crecimiento propio y del equipo
 
 Siente:
 
-Incómoda con personas de un mindset difrente
-Me gusta el trabajo pero no su forma de trabajar.
-Siento que la brecha generacional me impide integrarme con los equipos con una edad mayor.
-Siento que hacen mi trabajo menos por mi edad.
+* Incómoda con personas de un mindset difrente
+* Me gusta el trabajo pero no su forma de trabajar.
+* Siento que la brecha generacional me impide integrarme con los equipos con una edad mayor.
+* Siento que hacen mi trabajo menos por mi edad.
 
 ### Emphaty map
 <img src = "src/assets/image/emphatymap.jpg">
