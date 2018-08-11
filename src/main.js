@@ -10,6 +10,11 @@ document.getElementById('kanvan').addEventListener('click', event => {
 });
 // // Drag and drop. Con arrow function se rompe
 
+// agregando listener para log out
+document.getElementById('logout').addEventListener('click', event => {
+  window.location.assign('../index.html');
+ });
+
 function allowDrop(ev) {
   ev.preventDefault();
 }
@@ -23,6 +28,7 @@ function drop(ev) {
   var data = ev.dataTransfer.getData('text');
   ev.target.appendChild(document.getElementById(data));
 }
+
 
 // funcionalidad para botontes de collaborador
 // const collaborator = document.getElementById('collaborator');
