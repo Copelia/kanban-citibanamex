@@ -6,8 +6,24 @@
 }*/
 
 #img-logo {
-  height: ;
-  width: ;
+  text-align: right;
+
+}
+
+#logout {
+    background-color: #007bff;
+}
+
+.square {
+    background-color: #3319a0;
+    color: white;
+    padding:20px;
+}
+.square2 {
+    background-color: #007bff;
+    color: white;
+    padding:20px;
+
 }
 header {
     text-align: center;
