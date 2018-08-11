@@ -4,7 +4,10 @@
 $(document).ready(function() {
   $('.sidenav').sidenav();
 });
-
+//agregando listener para volver a home
+document.getElementById('kanvan').addEventListener('click', event => {
+  window.location.assign('home.html');
+});
 // // Drag and drop. Con arrow function se rompe
 
 function allowDrop(ev) {
