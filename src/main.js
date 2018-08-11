@@ -25,8 +25,8 @@ function drop(ev) {
 }
 
 // funcionalidad para botontes de collaborador
-const collaborator = document.getElementById('collaborator');
-const getCollaborator = () => {
-  location.href = 'collabor.html';
-};
-collaborator.addEventListener('click', getCollaborator);
+// const collaborator = document.getElementById('collaborator');
+// const getCollaborator = () => {
+//   location.href = 'collabor.html';
+// };
+// collaborator.addEventListener('click', getCollaborator);
