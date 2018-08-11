@@ -15,38 +15,34 @@
     <header>
         <h1>Kanban UX-ers CitiBanamex</h1>
     </header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)">
-                BACKLOG
-                <div class="card" style="width: 10rem;" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="card-body"  draggable="true" ondragstart="drag(event)" id="text1">
-                        <p class="card-text">Realizar user persona</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                TO DO
-                <div class="card" style="width: 10rem;" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <div class="card-body">
-                        <p id="to-do" draggable="true" class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                DOING
-            </div>
-            <div class="col-sm-2">
-                FEEDBACK
-            </div>
-            <div class="col-sm-2">
-                DONE
-            </div>
 
-        </div>
+
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            BACKLOG
+                        <div class="card">    
+                                <div class="card-body">
+    <p id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69">hola</p>
+                                </div>
+</div>
+</div>
+
+<div class="col" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    TO DO
+    <div class="card">
+        <div class="card-body">
+        <p id="drag2" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
     </div>
-    <script src="main.js"></script>
-    <script src="data.js"></script>
+    </div>
+</div>
+
+                    </div>
+
+            </div>
+      
+            <script src="main.js"></script>
+            <script src="data.js"></script>
 </body>
 
 </html>
