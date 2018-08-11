@@ -2,11 +2,11 @@
 
 // // Login redirección
 
-let button = document.getElementById('login');
+// let button = document.getElementById('login');
 
-button.addEventListener('click', (event) => {
-  location.href = 'src/home.html';
-});
+// button.addEventListener('click', (event) => {
+//   location.href = 'src/home.html';
+// });
 
 // // Drag and drop. Con arrow function se rompe
 
