@@ -28,7 +28,9 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   var elems = document.querySelectorAll('.sidenav');
-//   var instances = M.Sidenav.init(elems, options);
-// });
+// funcionalidad para botontes de collaborador
+const collaborator = document.getElementById('collaborator');
+const getCollaborator = () => {
+  location.href = 'collabor.html';
+};
+collaborator.addEventListener('click', getCollaborator);
