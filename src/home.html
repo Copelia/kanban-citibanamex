@@ -19,7 +19,6 @@
 <body>
   <header class="row">
     <img class=" col-8 col-md-4 offset-2 offset-md-4" src="assets/image/tipografia kanbank.png">
-    <h4 class="col-8 col-md-2 offset-4 offset-md-10">Ale</h4>
   </header>
 
 
@@ -27,8 +26,10 @@
     <div class="row">
       <div class="task col-12 border border-danger d-flex flex-row">
         BACKLOG
-        <span><i class="fas fa-plus"></i></span>
-        
+        <span>
+          <i class="fas fa-plus"></i>
+        </span>
+
         <div class="p2 card" style="width: 10rem;" id="div-a" ondrop="drop(event)" ondragover="allowDrop(event)">
           <div class="card-body">
             <p class="card-text" id="drag-a" draggable="true" ondragstart="drag(event)" width="336" height="69">Realizar user persona</p>
@@ -67,22 +68,28 @@
           </div>
         </div>
       </div>
-      <button>
+
+    </div>
+  </div>
+  <footer>
+    <div class="row">
+      <button class="btn btn-outline-primary justify-content-md-center col-6 offset-3 col-md-4 offset-md-4">
         <a href="proyectos.html">Mis proyectos</a>
       </button>
     </div>
-  </div>
-  <footer class="row justify-content-md-center col-6 offset-3">
-    <div class="btn-group dropup">
-      <div class="dropup">
-        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">
-          Colaboradores
-        </button>
-        <div class="dropdown-menu">
-          <a id="collaborator" class="dropdown-item" href="#">Mirian García</a>
+    <div class="row">
+      <div class="btn-group dropup justify-content-md-center col-6 offset-3">
+        <div class="dropup">
+          <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">
+            Colaboradores
+          </button>
+          <div class="dropdown-menu">
+            <a id="collaborator" class="dropdown-item" href="#">Mirian García</a>
+          </div>
         </div>
       </div>
     </div>
+
   </footer>
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
