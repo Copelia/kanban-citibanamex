@@ -17,32 +17,33 @@
     </header>
 
 
-            <div class="container-fluid">
-                    <div class="row">
-                        <div class="col" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            BACKLOG
-                        <div class="card">    
-                                <div class="card-body">
-    <p id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69">hola</p>
-                                </div>
-</div>
-</div>
-
-<div class="col" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
-    TO DO
-    <div class="card">
-        <div class="card-body">
-        <p id="drag2" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
-    </div>
-    </div>
-</div>
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                BACKLOG
+                <div class="card">
+                    <div class="card-body">
+                        <p id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69">hola</p>
                     </div>
-
+                </div>
             </div>
-      
-            <script src="main.js"></script>
-            <script src="data.js"></script>
+
+            <div class="col" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                TO DO
+                <div class="card">
+                    <div class="card-body">
+                        <p id="drag2" draggable="true" ondragstart="drag(event)" width="336" height="69"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+    <script src="data.js"></script>
+
 </body>
 
 </html>
