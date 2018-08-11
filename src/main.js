@@ -4,9 +4,9 @@
 
 let button = document.getElementById('login');
 
-button.addEventListener('click', (event) => {
-  location.href = 'src/home.html';
-});
+// button.addEventListener('click', (event) => {
+//   location.href = 'src/home.html';
+// });
 
 // // Drag and drop. Con arrow function se rompe
 
@@ -24,3 +24,13 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
+
+
+
+// funcionalidad para botontes de collaborador
+const collaborator = document.getElementById('collaborator');
+const getCollaborator = () => {
+    location.href = 'collabor.html';
+};
+collaborator.addEventListener('click', getCollaborator);
+
