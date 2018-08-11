@@ -17,35 +17,25 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6">
-        <input id="email" type="email" placeholder="E-mail">
-        <input id="contraseña" type="password" placeholder="Contraseña">
-
+        <form>
+          <input id="email" type="email" placeholder="E-mail">
+          <input id="contraseña" type="password" placeholder="Contraseña">
+        </form>
       </div>
       <div class="col-sm-6">
         <button id="login">Login</button>
+        <button id="twitter-log">Twiter</button>
+        <button id="google-log">Google</button>
 
       </div>
     </div>
 
   </div>
-  <!--Firebase Login-->
-  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyAiAsGQvnKAXSnwwTQJV71ua8V2uE9EM00",
-      authDomain: "ux-kanban-citybanamex.firebaseapp.com",
-      databaseURL: "https://ux-kanban-citybanamex.firebaseio.com",
-      projectId: "ux-kanban-citybanamex",
-      storageBucket: "ux-kanban-citybanamex.appspot.com",
-      messagingSenderId: "357015167261"
-    };
-    firebase.initializeApp(config);
-  </script>
-  <!--Cierre de Firebase Login-->
 
-
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
   <script src="src/main.js"></script>
+  <script src="src/data.js"></script>
+  <script src="src/login.js"></script>
 </body>
 
 </html>
