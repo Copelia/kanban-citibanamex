@@ -21,7 +21,7 @@ window.twitterLogin = () => {
       let token = result.credential.accessToken;
       // The signed-in user info.
       let user = result.user;
-      location.href = 'views/newsfeed.html';
+      location.href = 'src/home.html';
       // ...
     })
     .catch(error => {
@@ -52,7 +52,7 @@ window.googleLogin = () => {
       let token = result.credential.accessToken;
       // The signed-in user info.
       let user = result.user;
-      location.href = 'views/newsfeed.html';
+      location.href = 'src/home.html';
       // ...
     })
     .catch(error => {
