@@ -14,7 +14,7 @@
   "dependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
-    "htmlhint": "^0.9.13",
+    "htmlhint": "^1.1.4",
     "materialize-social": "^1.0.3",
     "mocha": "^5.1.1",
     "nyc": "^11.7.1",
